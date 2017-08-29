@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/SFVC.dir/LFSC.cpp.o CMakeFiles/SFVC.dir/filetable.cpp.o  -o SFVC -lpthread 
+/usr/bin/c++   -g   CMakeFiles/SFVC.dir/file_table.cpp.o CMakeFiles/SFVC.dir/main.cpp.o  -o SFVC 

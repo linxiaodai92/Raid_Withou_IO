@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lynn/CLionProjects/SFVC/LFSC.cpp" "/home/lynn/CLionProjects/SFVC/cmake-build-debug/CMakeFiles/SFVC.dir/LFSC.cpp.o"
-  "/home/lynn/CLionProjects/SFVC/filetable.cpp" "/home/lynn/CLionProjects/SFVC/cmake-build-debug/CMakeFiles/SFVC.dir/filetable.cpp.o"
+  "/home/lynn/Downloads/RAID_Dell/SFVC/file_table.cpp" "/home/lynn/Downloads/RAID_Dell/SFVC/cmake-build-debug/CMakeFiles/SFVC.dir/file_table.cpp.o"
+  "/home/lynn/Downloads/RAID_Dell/SFVC/main.cpp" "/home/lynn/Downloads/RAID_Dell/SFVC/cmake-build-debug/CMakeFiles/SFVC.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

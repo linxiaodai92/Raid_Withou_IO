@@ -48,10 +48,10 @@ RM = /home/lynn/Downloads/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lynn/CLionProjects/SFVC
+CMAKE_SOURCE_DIR = /home/lynn/Downloads/RAID_Dell/SFVC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lynn/CLionProjects/SFVC/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lynn/Downloads/RAID_Dell/SFVC/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lynn/CLionProjects/SFVC/cmake-build-debug/CMakeFiles /home/lynn/CLionProjects/SFVC/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lynn/Downloads/RAID_Dell/SFVC/cmake-build-debug/CMakeFiles /home/lynn/Downloads/RAID_Dell/SFVC/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lynn/CLionProjects/SFVC/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lynn/Downloads/RAID_Dell/SFVC/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,59 @@ SFVC/fast:
 	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/build
 .PHONY : SFVC/fast
 
-LFSC.o: LFSC.cpp.o
+file_table.o: file_table.cpp.o
 
-.PHONY : LFSC.o
-
-# target to build an object file
-LFSC.cpp.o:
-	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/LFSC.cpp.o
-.PHONY : LFSC.cpp.o
-
-LFSC.i: LFSC.cpp.i
-
-.PHONY : LFSC.i
-
-# target to preprocess a source file
-LFSC.cpp.i:
-	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/LFSC.cpp.i
-.PHONY : LFSC.cpp.i
-
-LFSC.s: LFSC.cpp.s
-
-.PHONY : LFSC.s
-
-# target to generate assembly for a file
-LFSC.cpp.s:
-	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/LFSC.cpp.s
-.PHONY : LFSC.cpp.s
-
-filetable.o: filetable.cpp.o
-
-.PHONY : filetable.o
+.PHONY : file_table.o
 
 # target to build an object file
-filetable.cpp.o:
-	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/filetable.cpp.o
-.PHONY : filetable.cpp.o
+file_table.cpp.o:
+	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/file_table.cpp.o
+.PHONY : file_table.cpp.o
 
-filetable.i: filetable.cpp.i
+file_table.i: file_table.cpp.i
 
-.PHONY : filetable.i
+.PHONY : file_table.i
 
 # target to preprocess a source file
-filetable.cpp.i:
-	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/filetable.cpp.i
-.PHONY : filetable.cpp.i
+file_table.cpp.i:
+	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/file_table.cpp.i
+.PHONY : file_table.cpp.i
 
-filetable.s: filetable.cpp.s
+file_table.s: file_table.cpp.s
 
-.PHONY : filetable.s
+.PHONY : file_table.s
 
 # target to generate assembly for a file
-filetable.cpp.s:
-	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/filetable.cpp.s
-.PHONY : filetable.cpp.s
+file_table.cpp.s:
+	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/file_table.cpp.s
+.PHONY : file_table.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/SFVC.dir/build.make CMakeFiles/SFVC.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SFVC"
-	@echo "... LFSC.o"
-	@echo "... LFSC.i"
-	@echo "... LFSC.s"
-	@echo "... filetable.o"
-	@echo "... filetable.i"
-	@echo "... filetable.s"
+	@echo "... file_table.o"
+	@echo "... file_table.i"
+	@echo "... file_table.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

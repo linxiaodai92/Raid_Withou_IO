@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SFVC.dir/LFSC.cpp.o"
-  "CMakeFiles/SFVC.dir/filetable.cpp.o"
+  "CMakeFiles/SFVC.dir/file_table.cpp.o"
+  "CMakeFiles/SFVC.dir/main.cpp.o"
   "SFVC.pdb"
   "SFVC"
 )

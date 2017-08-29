@@ -3,6 +3,9 @@ project(SFVC)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES LFSC.cpp filetable.cpp filetable.h LFSC.h)
+set(SOURCE_FILES
+        file_table.cpp
+        file_table.h
+         main.cpp)
+
 add_executable(SFVC ${SOURCE_FILES})
-target_link_libraries(SFVC pthread)

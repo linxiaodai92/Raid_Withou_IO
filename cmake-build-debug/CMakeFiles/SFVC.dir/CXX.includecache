@@ -6,45 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/lynn/CLionProjects/SFVC/LFSC.cpp
-stdio.h
+/home/lynn/Downloads/RAID_Dell/SFVC/file_table.cpp
+file_table.h
+/home/lynn/Downloads/RAID_Dell/SFVC/file_table.h
+iostream
 -
+
+/home/lynn/Downloads/RAID_Dell/SFVC/file_table.h
 stdlib.h
 -
-math.h
--
-assert.h
--
-string.h
--
-pthread.h
--
-LFSC.h
-/home/lynn/CLionProjects/SFVC/LFSC.h
-filetable.h
-/home/lynn/CLionProjects/SFVC/filetable.h
-
-/home/lynn/CLionProjects/SFVC/LFSC.h
 stdio.h
 -
-stdlib.h
--
-string.h
--
-filetable.h
-/home/lynn/CLionProjects/SFVC/filetable.h
 
-/home/lynn/CLionProjects/SFVC/filetable.cpp
-filetable.h
-/home/lynn/CLionProjects/SFVC/filetable.h
-
-/home/lynn/CLionProjects/SFVC/filetable.h
-stdio.h
--
-stdlib.h
--
-string.h
--
-pthread.h
--
+/home/lynn/Downloads/RAID_Dell/SFVC/main.cpp
+file_table.h
+/home/lynn/Downloads/RAID_Dell/SFVC/file_table.h
 
